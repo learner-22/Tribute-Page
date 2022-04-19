@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+html{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTViQLes443ga9KErvG9BpiNSy9lLl_JD28WA&usqp=CAU");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+margin: 10px;
+
+ }
+
+
+  .parent{
+    
+    display: flex;
+    
+    flex-direction:row;
+    justify-content:space-evenly;
+
+
+   
+}
+.left{
+width: 40%;
+color: brown;
+font-family: 'Beau Rivage', cursive;
+font-size: x-large;
+}
+
+.bullet{
+  display:flex;
+}
+
+.right{
+  display:flex;
+  flex-direction: row;
+  width: 60%;
+  align-items:flex-start;
+  margin-top: 100px;
+  grid-auto-flow: column;
+  color: #b33939;
+  gap : 50px;
+  font-family: 'Beau Rivage', cursive;
+font-size: x-large;
+  }
+ 
+ .right img{
+   border-radius: 50%;
+ }
+ h1{ text-align: center; margin-top: 40px;   
+  font-family: 'Permanent Marker', cursive;
+  font-size: 4em;
+color: #2c2c54;
+
+  
+  }
+
+
+
+ .div1 h2{text-align: center;}
+ 
+ .footer{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 40px;
+  grid-auto-flow: column;
+
+ }
+#end { text-align: center; color: #b33939;}
+
+ .dropbtn {
+  border: none;
+  position: relative;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+ position: relative;
+  right:0;
+  background-color: #e7c7c7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(63, 16, 16, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {display: block; }
